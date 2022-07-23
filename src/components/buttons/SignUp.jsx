@@ -24,7 +24,7 @@ const SignUp = () => {
           <div className="modal-content">
             <div className="modal-header">
               <h5 className="modal-title" id="exampleModalLabel">
-                Login
+                Create an account
               </h5>
               <button
                 type="button"
@@ -47,14 +47,14 @@ const SignUp = () => {
                 Sign Up With GitHub
               </button>
               <form>
-                <div class="mb-3">
-                  <label for="exampleInput" class="form-label">Username</label>
-                  <input type="text" class="form-control" id="exampleInput"/>
+                <div className="mb-3">
+                  <label htmlFor="exampleInput" className="form-label">Username</label>
+                  <input type="text" className="form-control" id="exampleInput"/>
                     
                 </div>
-                <div class="mb-3">
-                  <label for="exampleInoutEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                <div className="mb-3">
+                  <label htmlFor="exampleInoutEmail1" className="form-label">Email address</label>
+                  <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
 
                   <div id="emailHelp" className="form-text"> Wel'll never share your email with anyone else.</div>
                 </div>
@@ -70,9 +70,9 @@ const SignUp = () => {
                   />
                 </div>
 
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                <div className="mb-3 form-check">
+                  <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
+                    <label className="form-check-label" htmlFor="exampleCheck1">Check me out</label>
                 </div>
 
               
