@@ -51,7 +51,7 @@ const Header = () => {
 
                 <Login/>
                 <SignUp/>
-                <CartBtn/>
+                <CartBtn />
           </div>
           
         </div>
